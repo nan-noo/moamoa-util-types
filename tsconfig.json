@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "noEmit": false, // js파일을 출력해야 하기 때문에 emit이 필요하다
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "declaration": true, // d.ts파일이 필요하기 때문에 true로 설정한다
+    "outDir": "./dist" // 출력물이 들어갈 디렉토리를 지정한다
+  },
+  "include": ["src", "__tests__"]
+}

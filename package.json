@@ -1,0 +1,33 @@
+{
+  "name": "moamoa-util-types",
+  "version": "1.0.0",
+  "description": "moamoa utility type module",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsd",
+    "prepare": "rm -rf dist && mkdir dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nan-noo/moamoa-util-types.git"
+  },
+  "author": {
+    "name": "nan-noo",
+    "email": "uni613@naver.com"
+  },
+  "contributors": [
+    "nan-noo",
+    "airman5573"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nan-noo/moamoa-util-types/issues"
+  },
+  "homepage": "https://github.com/nan-noo/moamoa-util-types#readme",
+  "devDependencies": {
+    "tsd": "^0.24.1",
+    "typescript": "^4.8.3"
+  },
+  "types": "dist/index.d.ts",
+  "private": false
+}
